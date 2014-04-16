@@ -1,4 +1,6 @@
-<h2>Test task on Node.JS</h2>
+<h1>Task on Node.JS</h1>
+
+<h2>To Do:</h2>
 
 Need to write an informer, that displays currency exchange rate(USD, EUR, RUB) on website page which it is integrated in.
 
@@ -18,7 +20,9 @@ Bootstrap and jQuery for your consideration.
 
 =================================
 
-<h2>Тестовое задание на Node.JS</h2>
+<h1>Задание на Node.JS</h1>
+
+<h2>To Do:</h2>
 
 Необходимо написать информер, при размещении кода которого на любой странице сайта отображался бы курс валют USD, EUR, RUB  (задаётся параметром).
 
