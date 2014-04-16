@@ -1,0 +1,19 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+.result textarea{
+    width: 400px;
+    height: 150px;
+    margin-top: 10px;
+    font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+    resize: none;
+}
+.c_head {
+    font-size: 15px;
+    color: rgb(19, 61, 196);
+}

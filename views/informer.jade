@@ -1,0 +1,17 @@
+extends informer_layout
+
+block content
+        div.content(class=type === "h" ? "horizontal" : "vertical")
+            select.from
+                option(title="/images/rus.jpg", value="RUB") RUB
+                option(title="/images/eur.png", value="EUR") EUR
+                option(title="/images/usa.png", value="USD") USD
+            div
+                input(type="text", class="from_value", value="1")
+            div.arr
+                img(src="/images/icon-arrow.png")
+            select.to
+                option(title="/images/rus.jpg", value="RUB") RUB
+                option(title="/images/eur.png", value="EUR", selected="selected") EUR
+                option(title="/images/usa.png", value="USD") USD
+            div.result

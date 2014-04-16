@@ -1,0 +1,58 @@
+body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00B7FF;
+}
+.content {
+
+}
+.horizontal {
+    width: 380px;
+    height: 35px;
+}
+.vertical {
+    width: 156px;
+    height: 140px;
+}
+.horizontal .from_value {
+    width: 80px;
+    margin-left: 5px;
+    float: left;
+}
+.horizontal .arr {
+    float: left;
+    margin: 1px 0 0 5px;
+    cursor: pointer;
+}
+.horizontal .arr img {
+    height: 25px;
+    margin: 0 10px;
+}
+.vertical .arr {
+    text-align: center;
+    cursor: pointer;
+}
+.vertical .arr img {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    width: 13px;
+}
+.horizontal select {
+    width: 80px;
+    float: left;
+}
+.horizontal .result {
+    float: left;
+    padding: 5px;
+}
+.vertical .result {
+    float: left;
+    margin-top: 5px;
+}
+.vertical select {
+    width: 155px;
+}

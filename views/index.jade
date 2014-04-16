@@ -1,0 +1,11 @@
+extends layout
+
+block content
+    div.c_head выберите тип информера
+    input(type="radio", name="informer_type", id="informer_vertical", checked="true", value="vertical")
+    label(for='informer_vertical') Веритикальный
+    input(type="radio", name="informer_type", id="informer_horizontal", value="horizontal")
+    label(for='informer_horizontal') Горизонтальный
+    div.result
+        textarea(id="informer_code")
+    iframe(src="http://localhost:8080/informer?type=v",frameborder="0", width="190", height="175")
